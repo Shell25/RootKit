@@ -1,0 +1,15 @@
+TARGETNAME = kernel
+
+TARGETPATH = obj
+
+TARGETTYPE = DRIVER
+
+
+
+INCLUDES   = %BUILD%\inc
+
+LIBS       = %BUILD%\lib
+
+
+
+SOURCES    = kernel.c

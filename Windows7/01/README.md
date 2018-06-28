@@ -1,0 +1,2 @@
+A simple example of the rootkit of Windows 7, in this example is a driver (rootkit), and after compiling it loads in the Windows 7 kernel, then executes the user program and enter the PID of the program you want to hide it.
+The user application puts the PID and sends it to the rootkit, then rootkit get it in the kernel and removes the active process links.
